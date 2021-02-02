@@ -1,4 +1,3 @@
-
 function sendRequest() {
   let xmlObj = new XMLHttpRequest();
   xmlObj.open("GET", "https://dog.ceo/api/breeds/image/random/20", true);
