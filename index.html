@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./main.css" />
     <title>Document</title>
   </head>
@@ -14,8 +20,14 @@
     }
   </style>
   <body>
-    <h3 id="status">STATUS</h3>
+    <section class="visual invisual">
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden"></span>
+      </div>
+    </section>
+    <!-- <h3 id="status">STATUS</h3>
     <div id="info"></div>
+    <div class="second"></div> -->
   </body>
   <script src="./api.js"></script>
 </html>
