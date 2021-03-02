@@ -1,25 +1,7 @@
 img {
   -webkit-user-drag: none;
-}
-
-.invisual {
-  display: none;
-}
-
-
-.visual{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-img {
   height: 200px;
   width: 200px;
   object-fit: cover;
+  margin: 2px;
 }
