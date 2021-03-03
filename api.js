@@ -1,6 +1,6 @@
-function sendRequest2() {
+function sendRequest() {
   let xmlObj = new XMLHttpRequest();
-  xmlObj.open("GET", "https://dog.ceo/api/breeds/image/random/20", true);
+  xmlObj.open("GET", "https://dog.ceo/api/breeds/image/random/30", true);
   xmlObj.onreadystatechange = function () {
     if (this.readyState === 4 && this.status === 200) {
       console.log("Yay, successful");
@@ -20,4 +20,4 @@ function sendRequest2() {
   };
   xmlObj.send();
 }
-sendRequest2();
+sendRequest();
