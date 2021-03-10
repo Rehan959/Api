@@ -20,9 +20,10 @@ function sendRequest() {
   };
   xmlObj.send();
 }
+sendRequest()
 
 async function SendRequest2 (){
 let data = await fetch("https://dog.ceo/api/breeds/image/random/30");
-console.log(await data.json())
+console.log(await data.json());
 }
 SendRequest2()
