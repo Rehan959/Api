@@ -14,7 +14,7 @@ function sendRequest() {
               <img src=${image} alt="dog_image"/>
               `;
       });
-    } else {
+    } else {  
       console.log("Nay, unsuccessful");
     }
   };
